@@ -7,12 +7,12 @@ import io.cucumber.java.After;
 import io.cucumber.java.Before;
 
 public class FollowerUtilityDriver {
-	
+/*	
 	public static WebDriver driver;
 	
 	@Before
 	public void setUp() {
-		System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\Google\\Chrome\\Application\\chrome_proxy.exe\"");
 		driver = new ChromeDriver();
 		driver.get("http://localhost:4200");
 	}
@@ -23,5 +23,6 @@ public class FollowerUtilityDriver {
 			driver.quit();
 		}
 	}
+	*/
 
 }

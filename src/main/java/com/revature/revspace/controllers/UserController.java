@@ -190,6 +190,8 @@ public class UserController
             safeId = 0;
         }
         newUser.setUserId(safeId);
+        String pp =newUser.getImage();
+        newUser.setTitle(pp);
         resultUser = us.update(newUser);
         if (resultUser == null)
         {
